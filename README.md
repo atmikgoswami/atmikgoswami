@@ -1,7 +1,7 @@
 - 👋 Hi, I’m @atmikgoswami
-- 👀 I’m interested in Android app development and Machine Learning
-- 🌱 I’m currently learning Kotlin Jetpack Compose
-- 💞️ I’m looking to collaborate on Android App development projects
+- 👀 I’m interested in Android app development, Backend Web development and Machine Learning
+- 🌱 I’m currently looking for working opportunities to gain experience 
+- 💞️ I’m looking to collaborate on Android App and Web development projects
 - 📫 How to reach me : Email: goswamiatmik@gmail.com
 - 😄 Pronouns: He/Him
 
