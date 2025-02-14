@@ -1,7 +1,8 @@
 - 👋 Hi, I’m @atmikgoswami
-- 👀 I’m interested in Android app development, Backend Web development and Machine Learning
+- 🧑‍🎓 I'm a 3rd year engineering undergraduate, pursuing Information Technology
+- 👀 I’m interested in Web development, Android app development and Machine Learning
 - 🌱 I’m currently looking for working opportunities to gain experience 
-- 💞️ I’m looking to collaborate on Android App and Web development projects
+- 💞️ I’m looking to collaborate on real-world projects
 - 📫 How to reach me : Email: goswamiatmik@gmail.com
 - 😄 Pronouns: He/Him
 
