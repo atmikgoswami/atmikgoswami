@@ -10,7 +10,7 @@ export default function Footer() {
     <footer className="bg-gray-900/80 text-white md:px-30 py-6 flex flex-col md:flex-row justify-between items-center space-y-4">
       {/* Logo */}
       <a
-        href=""
+        href="https://atmikgoswami.netlify.app"
         className="text-3xl font-bold text-center"
       >
         <span>atmikgoswami</span>
