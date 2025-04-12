@@ -4,7 +4,7 @@
 - 🌱 I’m currently looking for working opportunities to gain experience 
 - 💞️ I’m looking to collaborate on real-world projects
 - 📫 How to reach me : Email: goswamiatmik@gmail.com
-- 🌐 Portfolio Website : atmikgoswami.netlify.app
+- 🌐 Portfolio Website: [atmikgoswami.netlify.app](https://atmikgoswami.netlify.app)
 - 😄 Pronouns: He/Him
 
 <!---
