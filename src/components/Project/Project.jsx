@@ -42,6 +42,15 @@ export default function Project({ theme }) {
       live: "https://srijanju.in/login",
       tech: ["NodeJS", "ExpressJS", "MongoDB", "PassportJS"],
     },
+    {
+      title:
+        "Kora AI: AI powered mental health support system",
+      description:
+        "Kora AI is a full-stack web application designed to provide students with emotional support through intelligent AI-supported journaling, and emotional support. It encourages daily reflections and utilizes AI to enhance mental well-being, making it a digital companion for self-growth.",
+      github: "https://github.com/atmikgoswami/kora-frontend",
+      live: "https://kora25.netlify.app/",
+      tech: ["NodeJS", "ExpressJS", "MongoDB", "PassportJS"],
+    },
   ];
 
   const bgColor = theme === "light" ? "bg-gray-100" : "bg-gray-800";
