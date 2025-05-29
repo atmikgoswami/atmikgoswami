@@ -82,7 +82,7 @@ export function Form({ theme }) {
         />
 
         <ReCAPTCHA
-          sitekey="6Le1oBUrAAAAAOR_ECOsCK4HfhMGASvt2Rj9tJH-" // Use your own key here
+          sitekey="6LdByBUrAAAAAFXj-nZv3vYsANAE1HVpm-FlT-xC" // Use your own key here
           onChange={() => setIsHuman(true)}
           className="self-center"
         />
