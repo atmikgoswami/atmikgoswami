@@ -49,7 +49,7 @@ export default function Project({ theme }) {
         "Kora AI is a full-stack web application designed to provide students with emotional support through intelligent AI-supported journaling, and emotional support. It encourages daily reflections and utilizes AI to enhance mental well-being, making it a digital companion for self-growth.",
       github: "https://github.com/atmikgoswami/kora-frontend",
       live: "https://kora25.netlify.app/",
-      tech: ["NodeJS", "ExpressJS", "MongoDB", "PassportJS"],
+      tech: ["React", "NodeJS", "ExpressJS", "MongoDB", "Mistral LLM"],
     },
   ];
 
