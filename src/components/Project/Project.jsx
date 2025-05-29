@@ -26,13 +26,13 @@ export default function Project({ theme }) {
       tech: ["Jetpack Compose", "Dagger-Hilt", "Retrofit", "Room Database"],
     },
     {
-      title: "StyleHub: A fashion e-commerce website",
+      title: "MediaForge: Professional tools for all file manipulation needs",
       description:
-        "Developed the entire backend of a Fashion Store web application StyleHub using NodeJs, ExpressJs and mongoDB.",
-      github: "https://github.com/atmikgoswami/Stylehub-Backend",
-      live: "https://stylehub-backend.vercel.app/",
-      tech: ["NodeJS", "ExpressJS", "MongoDB", "Razorpay", "PassportJS"],
-    },
+        "MediaForge is a full-stack web application that provides powerful and intuitive tools for image and file manipulation. It enables users to compress, convert, and resize images, as well as compress, merge, and extract pages from PDFs. Designed with performance and ease-of-use in mind, MediaForge simplifies everyday file handling tasks through a clean and responsive interface.",
+      github: "https://github.com/atmikgoswami/mediaforge",
+      live: "https://mediaforge.netlify.app/",
+      tech: ["React", "Flask API", "Image Processing", "File Processing", "Python"],
+    },  
     {
       title:
         "Srijan-2025: Annual Techno-Management Fest of Jadavpur University",
