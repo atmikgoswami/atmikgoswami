@@ -27,14 +27,14 @@ export default function Contact({theme}) {
           whileHover={{ scale: 1.05 }}
           className="flex items-center justify-center w-full max-w-sm gap-4 bg-green-500 rounded-xl p-6 transition-colors hover:bg-pink-500"
         >
-          <a href="mailto:Hello@goswamiatmik@gmail.com">
+          <a href="mailto:contact@atmikgoswami.me">
             <img src={emailIcon} alt="Email" className="w-12" />
           </a>
           <a
-            href="mailto:Hello@goswamiatmik@gmail.com"
+            href="mailto:contact@atmikgoswami.me"
             className="text-black font-medium transition-colors hover:text-white"
           >
-            Hello@goswamiatmik@gmail.com
+            contact@atmikgoswami.me
           </a>
         </motion.div>
 
