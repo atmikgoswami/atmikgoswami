@@ -1,5 +1,5 @@
 import { useState } from "react";
-import Resume from "../../assets/AtmikGoswami_Resume.pdf";
+import Resume from "../../assets/Atmik Goswami_Resume.pdf";
 
 export default function Header({ theme, toggleTheme }) {
   const [isActive, setActive] = useState(false);
@@ -19,22 +19,22 @@ export default function Header({ theme, toggleTheme }) {
   return (
     <header className={`w-full backdrop-blur-sm p-4 lg:px-16 border-b flex flex-wrap justify-between items-center gap-4 sticky top-0 z-50 transition-colors duration-300`}>
       {/* Logo */}
-      <button onClick={() => scrollToSection("home")} className="font-anonymous text-2xl">
+      <button onClick={() => scrollToSection("home")} className="font-mono text-2xl">
         {"<Atmik Goswami/>"}
       </button>
 
       {/* Desktop Navigation */}
       <nav className="hidden md:flex space-x-6">
-        <button onClick={() => scrollToSection("home")} className="uppercase hover:scale-110 transition">
+        <button onClick={() => scrollToSection("home")} className="uppercase hover:scale-110 hover:text-green-400 transition">
           Home
         </button>
-        <button onClick={() => scrollToSection("about")} className="uppercase hover:scale-110 transition">
+        <button onClick={() => scrollToSection("about")} className="uppercase hover:scale-110 hover:text-green-400 transition">
           About me
         </button>
-        <button onClick={() => scrollToSection("projects")} className="uppercase hover:scale-110 transition">
+        <button onClick={() => scrollToSection("projects")} className="uppercase hover:scale-110 hover:text-green-400 transition">
           Projects
         </button>
-        <button onClick={() => scrollToSection("contact")} className="uppercase hover:scale-110 transition">
+        <button onClick={() => scrollToSection("contact")} className="uppercase hover:scale-110 hover:text-green-400 transition">
           Contact
         </button>
         <a href={Resume} download className="bg-green-500 px-5 py-2 rounded-full text-white uppercase hover:scale-110 transition">

@@ -14,18 +14,18 @@ export default function Footer() {
         className="text-3xl font-bold text-center"
       >
         <span>atmikgoswami</span>
-        <span className="text-green-500">.netlify.app</span>
+        <span className="text-green-500">.me</span>
       </a>
 
       {/* React Made Text */}
-      <p className="flex items-center text-lg space-x-2 md:mt-2 lg:mt-2">
+      {/* <p className="flex items-center text-lg space-x-2 md:mt-2 lg:mt-2">
         <span>This website was made with</span>
         <img
           src={reactIcon}
           alt="React"
           className="w-8 h-8 animate-spin-slow"
         />
-      </p>
+      </p> */}
 
       {/* Social Media Links */}
       <div className="flex space-x-4">
