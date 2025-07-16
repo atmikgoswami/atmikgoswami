@@ -30,7 +30,7 @@ export default function Project({ theme }) {
       description:
         "MediaForge is a full-stack web application that provides powerful and intuitive tools for image and file manipulation. It enables users to compress, convert, and resize images, as well as compress, merge, and extract pages from PDFs. Designed with performance and ease-of-use in mind, MediaForge simplifies everyday file handling tasks through a clean and responsive interface.",
       github: "https://github.com/atmikgoswami/mediaforge",
-      live: "https://mediaforge.netlify.app/",
+      live: "https://mediaforge.atmikgoswami.me/",
       tech: ["React", "Flask API", "Image Processing", "File Processing", "Python"],
     },  
     {
@@ -48,7 +48,7 @@ export default function Project({ theme }) {
       description:
         "Kora AI is a full-stack web application designed to provide students with emotional support through intelligent AI-supported journaling, and emotional support. It encourages daily reflections and utilizes AI to enhance mental well-being, making it a digital companion for self-growth.",
       github: "https://github.com/atmikgoswami/kora-frontend",
-      live: "https://kora25.netlify.app/",
+      live: "https://kora.atmikgoswami.me/",
       tech: ["React", "NodeJS", "ExpressJS", "MongoDB", "Mistral LLM"],
     },
   ];
