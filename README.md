@@ -1,10 +1,10 @@
 - 👋 Hi, I’m @atmikgoswami
-- 🧑‍🎓 I'm a 3rd year engineering undergraduate, pursuing Information Technology
-- 👀 I’m interested in Web development, Android app development and Machine Learning
+- 🧑‍🎓 I'm a final year engineering undergraduate, pursuing Information Technology
+- 👀 I’m interested in Artficial Intelligence, Web development, and Android app development 
 - 🌱 I’m currently looking for working opportunities to gain experience 
 - 💞️ I’m looking to collaborate on real-world projects
-- 📫 How to reach me : Email: goswamiatmik@gmail.com
-- 🌐 Portfolio Website: [atmikgoswami.netlify.app](https://atmikgoswami.netlify.app)
+- 📫 How to reach me : Email: contact@atmikgoswami.me
+- 🌐 Portfolio Website: [atmikgoswami.me](https://atmikgoswami.me)
 - 😄 Pronouns: He/Him
 
 <!---
