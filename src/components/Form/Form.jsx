@@ -82,7 +82,7 @@ export function Form({ theme }) {
         />
 
         <ReCAPTCHA
-          sitekey="6LdByBUrAAAAAFXj-nZv3vYsANAE1HVpm-FlT-xC" // Use your own key here
+          sitekey={import.meta.env.VITE_RECAPTCHA_SITE_KEY}
           onChange={() => setIsHuman(true)}
           className="self-center"
         />
