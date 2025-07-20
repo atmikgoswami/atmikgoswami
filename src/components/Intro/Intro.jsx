@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import linkedin from "../../assets/linkedin.svg";
 import githubIcon from "../../assets/github.svg";
 import whatsapp from "../../assets/whatsapp.svg";
-import Hello from "../../assets/Hello.gif";
+import Hello from "../../assets/hello.gif";
 import telegram from "../../assets/telegram.svg";
 import Illustration from "../../assets/illustration.png";
 
@@ -25,7 +25,7 @@ export default function Hero() {
     >
       <motion.div className="space-y-4">
         <motion.p className="text-lg">
-          Hello <img src={Hello} alt="Hello" width="20px" className="inline" />, I'm
+          Hello <img src={Hello} alt="hello1" width="30px" className="inline" />, I'm
         </motion.p>
         <motion.h1 className="text-6xl font-bold">Atmik Goswami</motion.h1>
         <motion.h3 className="text-2xl">IT Engineering Undergraduate</motion.h3>
