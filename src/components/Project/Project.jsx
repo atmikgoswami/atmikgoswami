@@ -31,7 +31,7 @@ export default function Project({ theme }) {
         "MediaForge is a full-stack web application that provides powerful and intuitive tools for image and file manipulation. It enables users to compress, convert, and resize images, as well as compress, merge, and extract pages from PDFs. Designed with performance and ease-of-use in mind, MediaForge simplifies everyday file handling tasks through a clean and responsive interface.",
       github: "https://github.com/atmikgoswami/mediaforge",
       live: "https://mediaforge.atmikgoswami.me/",
-      tech: ["React", "Flask API", "Image Processing", "File Processing", "Python"],
+      tech: ["React", "Flask", "Python", "Celery", "Redis", "Docker"],
     },  
     {
       title:
