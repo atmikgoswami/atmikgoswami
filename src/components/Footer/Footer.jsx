@@ -6,26 +6,29 @@ import telegram from "../../assets/telegram.svg";
 import instagramIcon from "../../assets/instagram.svg";
 
 export default function Footer() {
+  const hostname = window.location.hostname; // e.g. atmikgoswami.me or atmikgoswami.tech
+
+  // Determine TLD dynamically
+  let tld = "";
+  if (hostname.includes(".me")) {
+    tld = ".me";
+  } else if (hostname.includes(".tech")) {
+    tld = ".tech";
+  }
+
+  // Dynamic color based on TLD
+  const tldColor = tld === ".me" ? "text-green-500" : "text-blue-500";
+
   return (
     <footer className="bg-gray-900/80 text-white md:px-30 py-6 flex flex-col md:flex-row justify-between items-center space-y-4">
       {/* Logo */}
       <a
-        href="https://atmikgoswami.netlify.app"
+        href="/"
         className="text-3xl font-bold text-center"
       >
         <span>atmikgoswami</span>
-        <span className="text-green-500">.me</span>
+        <span className={tldColor}>{tld}</span>
       </a>
-
-      {/* React Made Text */}
-      {/* <p className="flex items-center text-lg space-x-2 md:mt-2 lg:mt-2">
-        <span>This website was made with</span>
-        <img
-          src={reactIcon}
-          alt="React"
-          className="w-8 h-8 animate-spin-slow"
-        />
-      </p> */}
 
       {/* Social Media Links */}
       <div className="flex space-x-4">
