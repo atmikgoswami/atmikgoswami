@@ -47,7 +47,7 @@ export default function Footer() {
           <img src={githubIcon} alt="GitHub" className="w-8 hover:scale-110 transition" />
         </a>
         <a
-          href="https://api.whatsapp.com/send/?phone=%2B918910425255&text=Hello+Vinayak"
+          href="https://api.whatsapp.com/send/?phone=%2B918910425255&text=Hello+Atmik"
           target="_blank"
           rel="noreferrer"
         >
