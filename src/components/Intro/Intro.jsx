@@ -9,8 +9,14 @@ import telegram from "../../assets/telegram.svg";
 import Illustration from "../../assets/illustration.png";
 
 export default function Hero() {
-  const navigate = useNavigate();
   const [theme, setTheme] = useState(localStorage.getItem("theme") || "dark");
+
+  function scrollToSection(id) {
+    const el = document.getElementById(id);
+    if (el) {
+      el.scrollIntoView({ behavior: "smooth" });
+    }
+  }
 
   useEffect(() => {
     document.documentElement.classList.toggle("light", theme === "light");
@@ -32,7 +38,7 @@ export default function Hero() {
         <motion.p className="text-lg">Skilled in AI, Web and App Development</motion.p>
 
         <motion.button
-          onClick={() => navigate("/contact")}
+          onClick={() => scrollToSection("contact")}
           className="mt-4 bg-green-500 px-12 py-3 rounded-4xl text-white uppercase"
           whileHover={{ scale: 1.1 }}
         >
